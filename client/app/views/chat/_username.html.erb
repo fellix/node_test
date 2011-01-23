@@ -1,0 +1,7 @@
+<div id="chat_username">
+<%= form_tag '/chat/join', :remote => true do  %>
+  <p>Enter your name:<br />
+  <%= text_field_tag :username %></p>
+  <p><%= submit_tag "Join" %></p>
+<% end %>
+</div>
